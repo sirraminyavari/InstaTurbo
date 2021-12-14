@@ -1,0 +1,22 @@
+{
+  "name": "insta-turbo",
+  "version": "0.0.0",
+  "description": "InstaTurbo",
+  "main": "app.js",
+  "author": {
+    "name": "Ramin"
+  },
+  "dependencies": {
+    "agenda": "^1.0.3",
+    "buffer": "^5.0.8",
+    "express": "^3.4.4",
+    "fs": "0.0.1-security",
+    "instagram-private-api": "^0.6.7",
+    "jade": "*",
+    "jalaali-js": "^1.1.0",
+    "mongodb": "^3.0.2",
+    "request": "^2.83.0",
+    "sha1": "^1.1.1",
+    "stylus": "*"
+  }
+}

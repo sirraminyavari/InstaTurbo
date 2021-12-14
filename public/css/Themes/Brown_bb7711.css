@@ -1,0 +1,296 @@
+﻿/* 
+Codes: {
+    "color": "#bb7711", 
+    "reverse": "#4488ee",
+    "verysoft": "#f6d4a2",
+    "soft": "#f2bf73",
+    "warm": "#b27110",
+    "verywarm": "#a86b0f",
+    "warmborder": "#9c7130",
+    "softborder": "#cc7a00",
+    "actionbutton": "#bb7711",
+    "highlytransparentwarm": "rgba(204, 122, 0, 0.06)",
+    "verytransparentwarm": "rgba(204, 122, 0, 0.1)",
+    "mediumtransparentwarm": "rgba(204, 122, 0, 0.5)",
+    "transparentwarm": "rgba(204, 122, 0, 0.7)"
+}
+*/
+
+.WarmBorder
+{
+    border: solid 1px #b27110;
+}
+
+.SoftBorder
+{
+    border: solid 1px #cc7a00;
+}
+
+.WarmColor
+{
+    color: #a86b0f;
+}
+
+.WarmBackgroundColor
+{
+    background: #b27110;
+    /*
+	background: -webkit-gradient(linear, left top, left bottom, from(#f2bf73), to(#b27110));
+	background: -moz-linear-gradient(top,  #f2bf73,  #b27110);
+    */
+    background: -webkit-gradient(linear, left top, left bottom, from(#b27110), to(#b27110));
+	background: -moz-linear-gradient(top,  #b27110,  #b27110);
+}
+
+.SoftBackgroundColor
+{
+    background-color: #f6d4a2;
+}
+
+.ColdBackgroundColor
+{
+    background-color:#fff;
+}
+
+.SoftShadow
+{
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.HardShadow
+{
+    box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+    -moz-box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+    -webkit-box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+}
+
+.TextInput
+{
+    height:24px;
+    font-size:18px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(172, 172, 172) rgb(197, 197, 197) rgb(197, 197, 197);
+    border-radius: 3px;
+    /* font: 81.25%/1 tahoma,helvetica,sans-serif; */
+    font: 81.25%/1 IRANSans;
+    color: rgb(51, 51, 51);
+}
+
+.TextInput:hover
+{
+    border-color:rgb(122, 122, 122) rgb(147, 147, 147) rgb(147, 147, 147);
+}
+
+.TextInput:focus
+{
+    border-color: #b27110;
+}
+
+.ActionButton 
+{
+	cursor: pointer;  
+	text-align: center; 
+	border: 1px solid #9c7130;
+	padding: 4px;
+	/*font: 13px/100% Tahoma;*/
+    font: 13px/100%;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 1px 1px rgba(0,0,0,.3); 
+	background-color: #bb7711;
+	background-image: -moz-linear-gradient(center top , #bb7711, #bb7711);
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+.ActionButton:hover 
+{
+    box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+    -moz-box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+    -webkit-box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+}
+
+.ActionButton:active 
+{
+    box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+    -moz-box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+    -webkit-box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+}
+
+.AppButton 
+{
+    cursor: pointer;  
+	border-bottom: 1px solid #9c7130;
+	padding: 4px;
+	font: 11px/100% IRANSans; 
+	text-shadow: 0 2px 2px rgba(95,95,95,.3);
+	color: #000000;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+.AppButton:hover 
+{
+    box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+    -moz-box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+    -webkit-box-shadow: 1px 1px 1px rgba(95, 95, 95, 0.5);
+}
+
+.AppButton:active 
+{
+    box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+    -moz-box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+    -webkit-box-shadow: 2px 2px 2px rgba(95, 95, 95, 0.5);
+}
+
+.SpaceItem
+{
+    width:100px; 
+    height:100px;
+    margin:10px;
+    -webkit-box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+	-moz-box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+	box-shadow: 5px 5px 5px rgba(95, 95, 95, 0.5);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+.rv-bg-color-trans-soft
+{
+    background-color: transparent;
+}
+
+.rv-bg-color-trans-soft:hover, .rv-bg-color-trans-soft:active
+{
+    background-color: #f6d4a2;
+}
+
+.rv-bg-color-softer-soft
+{
+    background-color: #f6d4a2;
+}
+
+.rv-bg-color-softer-soft:hover, .rv-bg-color-softer-soft:active
+{
+    background-color: #f2bf73;
+}
+
+.rv-bg-color-white-softer
+{
+    background-color: white;
+}
+
+.rv-bg-color-white-softer:hover, .rv-bg-color-white-softer:active
+{
+    background-color: #f6d4a2;
+}
+
+.rv-input {
+    color: rgb(51, 51, 51);
+    padding: 0.3rem;
+    border-width: 0.1rem;
+    border-color: #f2bf73 #f2bf73 #f2bf73;
+    border-style: solid;
+    border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+}
+
+.rv-input:hover {
+    border-color: #b27110 #b27110 #b27110;
+}
+
+.rv-input:focus {
+    border-color: #9c7130;
+}
+
+.rv-icon-button {
+    cursor: pointer;
+    color: #b27110;
+}
+
+.rv-icon-button:hover {
+    color: #cc7a00;
+}
+
+.rv-icon-button:active {
+    color: #9c7130;
+}
+
+.rv-air-button {
+    text-align: center;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    color: black;
+    background-color: rgba(204, 122, 0, 0.1);
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0.1rem;
+}
+
+.rv-air-button:hover {
+    color: white;
+    background-color: rgba(204, 122, 0, 0.5);
+}
+
+.rv-air-button:active {
+    background-color: rgba(204, 122, 0, 0.7);
+}
+
+.rv-white-button {
+    text-align: center;
+    cursor: pointer;
+    padding: 0.2rem 0.5rem;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: #cc7a00;
+    border-width: 0.1rem;
+}
+
+.rv-tab {
+    text-align:center;
+    cursor:pointer;
+    padding:0.2rem 0.5rem;
+    color:black;
+    background-color: rgba(204, 122, 0, 0.1);
+    border-style:solid;
+    border-color:transparent;
+    border-width:0.1rem;
+}
+
+.rv-tab:hover {
+    color:white;
+    background-color: rgba(204, 122, 0, 0.5);
+}
+
+.rv-tab:active {
+    background-color: rgba(204, 122, 0, 0.7);
+}
+
+.rv-tab-selected {
+    text-align:center;
+    cursor:pointer;
+    padding:0.2rem 0.5rem;
+    color:black;
+    background-color:white;
+    border-style:solid;
+    border-color: #cc7a00;
+    border-width:0.1rem;
+}
+
+.rv-tab-disabled {
+    text-align:center;
+    cursor:not-allowed;
+    padding:0.2rem 0.5rem;
+    color: rgb(150,150,150);
+    background-color: rgba(204, 122, 0, 0.06);
+    border-style:solid;
+    border-color: #a86b0f;
+    border-width:0.1rem;
+}

@@ -1,0 +1,2 @@
+E:\SRC\InstaTurbo\obj\Release\InstaTurbo.njsprojResolveAssemblyReference.cache
+E:\SRC\InstaTurbo\bin\Microsoft.NodejsTools.WebRole.dll
